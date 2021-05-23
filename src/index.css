@@ -11,3 +11,89 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+img{
+  height: 150px;
+  /* width: 20%; */
+}
+
+.split {
+  height: 30%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  /* top: 0; */
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  background-color: white;
+}
+
+.right {
+  right: 0;
+  background-color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered img {
+  width: 250px;
+  /* border-radius: 100%; */
+}
+
+.header {
+  background-color: #666;
+  padding: 15px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+/* Style the footer */
+.footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  height: 18px;
+  background: #666;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+input[type="file"] {
+  display: none;
+}
+.custom-file-upload {
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+.footer-lable{
+  width: 18%;
+  height: 24px;
+  padding: 45px;
+  background: #666;
+  font-size: 18px;
+  color: white;
+}
